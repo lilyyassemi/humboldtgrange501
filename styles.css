@@ -3,6 +3,11 @@
     font-family: 'Open Sans'
 }
 
+body {
+    background-color: #F8F6F0;
+    color: #333333;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora'; 
     text-align: center;
@@ -13,6 +18,21 @@ p, a {
     text-align: center;
 }
 
+a:hover {
+    color: #A7C7E7;
+}
 
+.primary-button {
+    width: 100px;
+    height: 50px;
+    background-color: #002F6C;
+    color: #F8F6F0;
+}
 
+.secondary-button {
+    width: 50px; 
+    height: 25px; 
+    background-color: #E1B80D;
+    color: #F8F6F0;
+}
 
